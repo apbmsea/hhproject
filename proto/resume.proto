@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package resume;
+
+option go_package = "hhproject/proto";
+
+service ResumeService {
+  // Создание нового резюме
+  rpc CreateResume (Resume) returns (ResumeID);
+  
+  // Получение списка резюме с фильтрацией
+  rpc GetResumes (GetResumesRequest) returns (Resumes);
+  
+  // Редактирование существующего резюме
+  rpc UpdateResume (Resume) returns (Empty);
+  
+  // Удаление резюме
+  rpc DeleteResume (ResumeID) returns (Empty);
+}
+
+message Resume {
+  int32 id = 1; // Уникальный идентификатор
+  string name = 2; // Имя пользователя
+  string position = 3; // Желаемая позиция
+  string skills = 4; // Навыки
+  string experience = 5; // Опыт работы
+  string contact_info = 6; // Контактная информация
+  repeated string tags = 7; // Теги для фильтрации
+}
+
+message ResumeID {
+  int32 id = 1;
+}
+
+message GetResumesRequest {
+  string filter = 1; // Фильтр для резюме
+}
+
+message Resumes {
+  repeated Resume resumes = 1;
+}
+
+message Empty {}
