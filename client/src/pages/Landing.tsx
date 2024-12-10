@@ -1,7 +1,8 @@
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/pagesStyle/Landing.scss';
 
-const Landing = () => {
+const Landing: React.FC = () => {
     const navigate = useNavigate();
 
     const handleGoToMain = () => {
