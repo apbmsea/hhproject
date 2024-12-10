@@ -4,7 +4,7 @@ import '../styles/pagesStyle/Header.scss';
 
 const Header: React.FC = () => {
 
-    const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false); // Авторизация
+    const [isAuthenticated, setIsAuthenticated] = useState<boolean>(true); // Авторизация
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false); // Состояние бургер-меню
     const navigate = useNavigate();
 
@@ -24,26 +24,32 @@ const Header: React.FC = () => {
 
     return (
         <header>
-            <div className="logo" onClick={() => navigate('/')}>
-                <h1>Logo</h1>
-            </div>
-            <div className="menu">
+            <nav className="header-navbar">
+                <div className="header-logo" onClick={() => navigate('/')}>
+                    <img src="/image/logostatic.svg" alt="avatar"/>
+                </div>
+                <div className="header-links">
+                    <div className="header-link">Работодателям</div>
+                    <div className="header-link">Соискателям</div>
+                </div>
+            </nav>
+            <div className="header-menu">
                 {!isAuthenticated ? (
-                    <button className="login-button" onClick={handleLogin}>
+                    <button className="header-login-button" onClick={handleLogin}>
                         Войти
                     </button>
                 ) : (
-                    <div className="profile">
-                        <div onClick={() => setIsMenuOpen((prev) => !prev)} className="profile-info">
-                            <img src="/image/avatar1.svg" alt="Профиль" className="profile-img"/>
-                            <span>Иван Иванов</span>
+                    <div className="header-profile">
+                        <div onClick={() => setIsMenuOpen((prev) => !prev)} className="header-profile-info">
+                            <span>i23s0045</span>
+                            <img src="/image/avatar1.svg" alt="Профиль" className="header-profile-img"/>
                         </div>
                         {isMenuOpen && (
-                            <div className="drop-down-menu">
-                                <button onClick={handleResume} className="item">
+                            <div className="header-drop-down-menu">
+                                <button onClick={handleResume} className="header-item">
                                     Мое резюме
                                 </button>
-                                <button onClick={handleLogout} className="item">
+                                <button onClick={handleLogout} className="header-item header-logout-text">
                                     Выйти
                                 </button>
                             </div>
