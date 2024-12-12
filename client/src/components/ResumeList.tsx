@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+import Filters from './Filters';
 
 interface Resume {
     id: number;
     name: string;
     email: string;
-    phone: string;
+    skills: string;
+    description: string;
+    tags: { id: number; name: string }[]; // Если у тегов есть идентификаторы
 }
 
 const ResumeList: React.FC = () => {
     const [resumes, setResumes] = useState<Resume[]>([]);
     const [filteredResumes, setFilteredResumes] = useState<Resume[]>([]);
-    const [isLoading, setIsLoading] = useState<boolean>(true);
+    const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
     const [searchQuery, setSearchQuery] = useState<string>('');
 
@@ -19,15 +23,9 @@ const ResumeList: React.FC = () => {
         const fetchResumes = async () => {
             try {
                 setIsLoading(true);
-                const response = await axios.get('https://jsonplaceholder.typicode.com/users');
-                const data = response.data.map((user: any) => ({
-                    id: user.id,
-                    name: user.name,
-                    email: user.email,
-                    phone: user.phone,
-                }));
-                setResumes(data);
-                setFilteredResumes(data);
+                const response = await axios.get('http://localhost:8000/resumes'); //сылочка
+                setResumes(response.data);
+                setFilteredResumes(response.data);
             } catch (err) {
                 setError('Ошибка при загрузке данных.');
             } finally {
@@ -54,31 +52,26 @@ const ResumeList: React.FC = () => {
     if (error) return <p>{error}</p>;
 
     return (
-        <div className="resume-list-container">
-            <aside className="filters">
-                <h2>Фильтры</h2>
-                <input
-                    type="text"
-                    placeholder="Поиск..."
-                    value={searchQuery}
-                    onChange={handleSearch}
-                />
-            </aside>
-
-            <main className="resume-list">
+        <>
+            <div className="resume-list-search">
+                <Filters searchQuery={searchQuery} onSearch={handleSearch}/>
+            </div>
+            <div className="resume-list-container">
                 {filteredResumes.length > 0 ? (
                     filteredResumes.map((resume) => (
-                        <div key={resume.id} className="resume-card">
-                            <h3>{resume.name}</h3>
-                            <p>Email: {resume.email}</p>
-                            <p>Телефон: {resume.phone}</p>
-                        </div>
-                    ))
+                            <Link key={resume.id} to={`/resume/${resume.id}`} className="resume-card">
+                                <h3>{resume.name}</h3>
+                                <p>Email: {resume.email}</p>
+                                <p>Навыки: {resume.skills}</p>
+                                <p>Описание: {resume.description}</p>
+                            </Link>
+                        ))
+
                 ) : (
                     <p>Нет подходящих резюме.</p>
                 )}
-            </main>
-        </div>
+            </div>
+        </>
     );
 };
 
