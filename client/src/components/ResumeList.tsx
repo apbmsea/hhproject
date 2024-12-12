@@ -1,21 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import Filters from './Filters';
 
 interface Resume {
     id: number;
     name: string;
+    lastname: string;
+    years: number;
     email: string;
-    skills: string;
-    description: string;
-    tags: { id: number; name: string }[]; // Если у тегов есть идентификаторы
 }
+
 
 const ResumeList: React.FC = () => {
     const [resumes, setResumes] = useState<Resume[]>([]);
     const [filteredResumes, setFilteredResumes] = useState<Resume[]>([]);
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
     const [searchQuery, setSearchQuery] = useState<string>('');
 
@@ -23,9 +22,10 @@ const ResumeList: React.FC = () => {
         const fetchResumes = async () => {
             try {
                 setIsLoading(true);
-                const response = await axios.get('http://localhost:8000/resumes'); //сылочка
-                setResumes(response.data);
-                setFilteredResumes(response.data);
+                const response = await axios.get('http://localhost:8080/resumes');
+                const data: Resume[] = response.data;
+                setResumes(data);
+                setFilteredResumes(data);
             } catch (err) {
                 setError('Ошибка при загрузке данных.');
             } finally {
@@ -42,8 +42,8 @@ const ResumeList: React.FC = () => {
         const filtered = resumes.filter(
             (resume) =>
                 resume.name.toLowerCase().includes(query) ||
-                resume.email.toLowerCase().includes(query) ||
-                resume.phone.includes(query)
+                resume.lastname.toLowerCase().includes(query) ||
+                resume.email.toLowerCase().includes(query)
         );
         setFilteredResumes(filtered);
     };
@@ -52,26 +52,36 @@ const ResumeList: React.FC = () => {
     if (error) return <p>{error}</p>;
 
     return (
-        <>
-            <div className="resume-list-search">
-                <Filters searchQuery={searchQuery} onSearch={handleSearch}/>
-            </div>
-            <div className="resume-list-container">
+        <div className="resume-list-container">
+            <aside className="filters">
+                <h2>Фильтры</h2>
+                <input
+                    type="text"
+                    placeholder="Поиск..."
+                    value={searchQuery}
+                    onChange={handleSearch}
+                />
+            </aside>
+
+            <main className="resume-list">
                 {filteredResumes.length > 0 ? (
                     filteredResumes.map((resume) => (
-                            <Link key={resume.id} to={`/resume/${resume.id}`} className="resume-card">
-                                <h3>{resume.name}</h3>
-                                <p>Email: {resume.email}</p>
-                                <p>Навыки: {resume.skills}</p>
-                                <p>Описание: {resume.description}</p>
+                        <Link key={resume.id} to={`/resume/${resume.id}`} className="resume-card">
+                            <h3>{resume.name} {resume.lastname}</h3>
+                            <p>Возраст: {resume.years}</p>
+                            <p>Email: {resume.email}</p>
+                            <Link to={`/resume/edit/${resume.id}`} className="edit-link">
+                                Редактировать
                             </Link>
-                        ))
+                        </Link>
 
+
+                    ))
                 ) : (
                     <p>Нет подходящих резюме.</p>
                 )}
-            </div>
-        </>
+            </main>
+        </div>
     );
 };
 
