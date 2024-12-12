@@ -19,7 +19,7 @@ const Header: React.FC = () => {
     }
 
     const handleResume = () => {
-        navigate('/resume');
+        navigate('/create-resume');
     }
 
     return (
