@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f472259-0472-4c84-b5d7-4afbc0f5fd6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/cmd/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/internal/database/database.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/internal/handlers/handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/internal/handlers/resume.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/internal/models/resume.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/internal/models/tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/migrations/init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/cerver/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/errors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/cmd/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/configs/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/internal/database/database.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/internal/handlers/handlers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/internal/handlers/resume.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/internal/models/resume.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/internal/models/tag.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/migrations/init.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../Program Files/Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -41,27 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/all repo/hhproject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\apbms\\OneDrive\\Рабочий стол\\hhproject\\client\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/all repo/hhproject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\apbms\\OneDrive\\Рабочий стол\\hhproject\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\apbms\OneDrive\Рабочий стол\hhproject\client\public" />
@@ -75,8 +74,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-d297c17c1fbd-b87a2f8923ed-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-243.21565.208" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-GO-243.21565.208" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -103,6 +101,7 @@
       <workItem from="1733865167844" duration="5284000" />
       <workItem from="1733912922598" duration="25491000" />
       <workItem from="1733998570636" duration="18912000" />
+      <workItem from="1734109880949" duration="621000" />
     </task>
     <servers />
   </component>
