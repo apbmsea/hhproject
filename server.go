@@ -1,4 +1,4 @@
-package proj_kct_resume
+package proj
 
 import (
 	"context"
