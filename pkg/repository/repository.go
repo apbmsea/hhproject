@@ -15,6 +15,6 @@ type Reposirory struct {
 	ResumeItem
 }
 
-func NewReposirory() *Reposirory {
+func NewReposirory(db *sqlx.BD) *Reposirory {
 	return &Reposirory{}
 }
