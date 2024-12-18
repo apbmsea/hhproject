@@ -1,0 +1,29 @@
+@use '../../vars';
+@use '../../Mixin' as mixin;
+
+.step-2{
+
+  &__form{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+  }
+
+  &__selector-box{
+    @include mixin.select;
+  }
+
+  &__check-box {
+    display: flex;
+    flex-direction: column;
+
+    div{
+      font-size: 1.8rem;
+
+      input{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

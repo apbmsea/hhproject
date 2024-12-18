@@ -1,0 +1,47 @@
+@use '../../vars';
+@use '../../Mixin' as mixin;
+
+
+
+.step-3{
+
+
+  &__skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-block {
+      background-color: #f0f0f0;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      &:hover {
+        background-color: vars.$m-input-lighter-gray-color;
+      }
+
+      .remove-icon {
+        color: vars.$color-light-gray;
+        font-size: 1.4rem;
+        cursor: pointer;
+      }
+    }
+
+    h3{
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: vars.$m-input-darkness-gray-color;
+    }
+  }
+}

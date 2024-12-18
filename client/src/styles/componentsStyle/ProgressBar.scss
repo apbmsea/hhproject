@@ -1,0 +1,19 @@
+@use '../vars';
+
+.progress-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.progress-step {
+  width: 20%;
+  height: 10px;
+  background-color: vars.$color-lighter-gray;
+  margin: 0 2px;
+  border-radius: 15px;
+}
+
+.progress-step.filled {
+  background-color: vars.$color-blue;
+}

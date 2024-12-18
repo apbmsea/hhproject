@@ -1,0 +1,120 @@
+@use '../vars';
+
+.header {
+
+  &__container {
+    border: 1px solid vars.$color-light-gray; //Temporary
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 10vh;
+
+    a {
+      color: vars.$color-light-gray;
+      font-size: 2.4rem;
+    }
+
+    &-link-logo {
+      cursor: pointer;
+
+      &-image {
+        width: 100%;
+      }
+    }
+
+    &-link-search {
+      cursor: pointer;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      text-decoration: none;
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        width: 0;
+        height: 2px;
+        background-color: vars.$color-blue-2;
+        transition: width 0.5s;
+      }
+
+      &:hover:after {
+        content: "";
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 2px;
+        background-color: vars.$color-blue;
+        transition: width 0.5s;
+      }
+    }
+
+    &-buttons {
+      display: flex;
+      gap: 1rem;
+      color: vars.$color-light-gray;
+      font-size: 2.4rem;
+
+      .header__container-button {
+        border: 1px solid vars.$color-light-gray;
+        border-radius: 25px;
+        padding: 5px 20px;
+        background-color: vars.$color-white;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          background-color: vars.$color-blue;
+          border: 1px solid vars.$color-white;
+          color: vars.$color-white;
+        }
+
+        &:active {
+          background-color: vars.$color-blue-2;
+          transform: translateY(2.5px);
+        }
+      }
+
+      &-account {
+        &-image {
+          width: 5rem;
+          height: 5rem;
+        }
+
+        &-dropdown-menu {
+          position: absolute;
+          top: 100%;
+          right: 0;
+          background-color: #fff;
+          color: #000;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          border-radius: 4px;
+          z-index: 10;
+
+          .header-item {
+            padding: 10px 0 10px 15px;
+            width: 100%;
+            text-align: left;
+            background: none;
+            border: none;
+            cursor: pointer;
+          }
+
+          .header-logout-text {
+            color: red;
+          }
+
+          button {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+}
