@@ -24,7 +24,6 @@ const ResumeForm: React.FC = () => {
         localStorage.setItem('currentStep', String(currentStep));
     }, [currentStep]);
 
-    // Используем useCallback для предотвращения создания новой функции
     const updateFormData = useCallback((newData: any) => {
         setFormData((prevData: any) => ({ ...prevData, ...newData }));
     }, []);

@@ -28,7 +28,12 @@
       gap: 5px;
 
       &:hover {
-        background-color: vars.$m-input-lighter-gray-color;
+        background-color: vars.$color-blue;
+        color: vars.$color-white;
+
+        .remove-icon{
+          color: vars.$color-white;
+        }
       }
 
       .remove-icon {

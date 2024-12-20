@@ -10,6 +10,8 @@ import ResumeForm from './components/resumeForm/ResumeForm';
 import ResumePage from './pages/ResumePage';
 import ResumeDetails from './components/ResumeDetails';
 import EditResume from './components/EditResume';
+import Landing from "./pages/Landing.tsx";
+import Home from './pages/Home';
 
 const App: React.FC = () => {
     return (
@@ -17,8 +19,10 @@ const App: React.FC = () => {
             <Router>
                 <Header />
                 <Routes>
+                    <Route path="/" element={<Landing />} />
+                    <Route path="/home" element={<Home />} />
                     <Route path="/resume-page" element={<ResumePage />} />
-                    <Route path="/resumes/:id" element={<ResumeDetails />} />
+                    <Route path="/resume/:id" element={<ResumeDetails />} />
                     <Route path="/resume/edit/:id" element={<EditResume />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/resume" element={<Resume />} />

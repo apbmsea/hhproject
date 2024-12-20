@@ -6,7 +6,7 @@ const Landing: React.FC = () => {
     const navigate = useNavigate();
 
     const handleGoToMain = () => {
-        navigate('/home'); // Указать путь к главной странице
+        navigate('/home');
     };
 
     return (

@@ -1,66 +1,55 @@
 @use '../../vars';
 @use '../../Mixin' as mixin;
 
-h1{
- padding-bottom: 20px;
-}
-
-.step1 {
-
-
-  .item3 {
-    grid-area: item3;
-  }
-
-  .item4 {
-    grid-area: item4;
-  }
-
-  .input-box{
-    @include mixin.input
-
-  }
-
-  .input-box{
-    @include mixin.input
-  }
-
-  .radio-box {
+.step-1{
+  &__content{
+    margin-top: 3rem;
+    height:40rem;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 
-    h3{
-      margin: 0 0 10px 0;
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: vars.$m-input-darkness-gray-color;
+    .input-box{
+      @include mixin.input
     }
 
-    &__radio{
+    .radio-box {
       display: flex;
-      gap: 1rem;
+      flex-direction: column;
 
-      label {
-        cursor: pointer;
+      h3{
+        margin: 0 0 10px 0;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: vars.$m-input-darkness-gray-color;
+      }
 
-        input[type="radio"] {
-          display: none;
-        }
+      &__radio{
+        display: flex;
+        gap: 1rem;
 
-        span {
-          padding: 10px 30px;
-          border: 1px solid vars.$m-input-darkness-gray-color;
-          border-radius: 15px;
-          background-color: vars.$color-white;
-          color: vars.$m-input-darkness-gray-color;
-          font-size: 1.8rem;
-          transition: all 0.3s ease;
-        }
+        label {
+          cursor: pointer;
 
-        input[type="radio"]:checked + span {
-          background-color: vars.$color-blue;
-          border-color: vars.$color-white;
-          color: vars.$color-white;
+          input[type="radio"] {
+            display: none;
+          }
+
+          span {
+            padding: 10px 30px;
+            border: 1px solid vars.$m-input-darkness-gray-color;
+            border-radius: 15px;
+            background-color: vars.$color-white;
+            color: vars.$m-input-darkness-gray-color;
+            font-size: 1.8rem;
+            transition: all 0.3s ease;
+          }
+
+          input[type="radio"]:checked + span {
+            background-color: #9605CA;
+            border-color: vars.$color-white;
+            color: vars.$color-white;
+          }
         }
       }
     }

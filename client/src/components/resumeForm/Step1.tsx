@@ -22,10 +22,10 @@ const Step1: React.FC<Step1Props> = ({ data, updateFormData }) => {
     }, [name, lastname, birthdate, gender]);
 
     return (
-        <div className="step1-container">
+        <div className="step-1 step">
             <h1>Персональные данные</h1>
-            <div className="step1 step">
-                <div className="step1__grid_item item1 input-box">
+            <div className="step-1__content">
+                <div className="input-box">
                     <label>Имя</label>
                     <input
                         type="text"
@@ -34,7 +34,7 @@ const Step1: React.FC<Step1Props> = ({ data, updateFormData }) => {
                         onChange={(e) => setName(e.target.value)}
                     />
                 </div>
-                <div className="step1__grid_item item2 input-box">
+                <div className="input-box">
                     <label>Фамилия</label>
                     <input
                         type="text"
@@ -43,7 +43,7 @@ const Step1: React.FC<Step1Props> = ({ data, updateFormData }) => {
                         onChange={(e) => setLastname(e.target.value)}
                     />
                 </div>
-                <div className="step1__grid_item item3 input-box">
+                <div className="input-box">
                     <label>Дата рождения</label>
                     <input
                         type="date"
@@ -51,7 +51,7 @@ const Step1: React.FC<Step1Props> = ({ data, updateFormData }) => {
                         onChange={(e) => setBirthdate(e.target.value)}
                     />
                 </div>
-                <div className="step1__grid_item item4 radio-box">
+                <div className="radio-box">
                     <h3>Пол</h3>
                     <div className="radio-box__radio">
                         <label>

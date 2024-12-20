@@ -39,7 +39,7 @@
         bottom: -3px;
         width: 0;
         height: 2px;
-        background-color: vars.$color-blue-2;
+        background-color: #9605CA;
         transition: width 0.5s;
       }
 
@@ -51,7 +51,7 @@
         left: 0;
         bottom: -3px;
         height: 2px;
-        background-color: vars.$color-blue;
+        background-color: #9605CA;
         transition: width 0.5s;
       }
     }
@@ -70,13 +70,13 @@
         transition: 0.2s ease-in-out;
 
         &:hover {
-          background-color: vars.$color-blue;
+          background-color: #9605CA;
           border: 1px solid vars.$color-white;
           color: vars.$color-white;
         }
 
         &:active {
-          background-color: vars.$color-blue-2;
+          background-color: #7904a1;
           transform: translateY(2.5px);
         }
       }

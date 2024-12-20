@@ -1,19 +1,21 @@
 @use '../../vars';
 @use '../../Mixin' as mixin;
 
-.step-2{
 
-  &__form{
+.step-2{
+  &__content{
+    margin-top: 3rem;
+    height:40rem;
     display: flex;
-    gap: 2rem;
     flex-direction: column;
+    gap: 2rem;
   }
 
   &__selector-box{
-    @include mixin.select;
+    @include mixin.select
   }
 
-  &__check-box {
+  &__check-box{
     display: flex;
     flex-direction: column;
 
@@ -21,8 +23,8 @@
       font-size: 1.8rem;
 
       input{
-        width: 20px;
-        height: 20px;
+        width: 2rem;
+        height: 2rem;
       }
     }
   }

@@ -1,0 +1,5490 @@
+{
+  "resumes": [
+    {
+      "id": 1,
+      "name": "Владимир",
+      "lastname": "Петров",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "NumPy",
+        "Python",
+        "PyTorch",
+        "Matplotlib",
+        "Pandas",
+        "TensorFlow"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 459 490 86 88"
+      ],
+      "links": [
+        "https://github.com/петрова",
+        "https://dribbble.com/петрова"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Виталий",
+      "lastname": "Смирнов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "2",
+      "projects": ["Личные проекты студентов, Проекты колледжа"],
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Angular", "Vue", "TypeScript", "SCSS", "Less", "Tailwind", "Webpack", "Vite", "Next", "Nuxt", "Git", "Axios", "Redux", "Redux-Toolkit", "Redux-Saga", "Mobx", "Zustand", "SEO", "CI/CD", "REST", "UI/UX", "ООП"],
+      "description": "Создаю слишком крутые сайты",
+      "phoneNumbers": ["+7 777 777 77 77"],
+      "links": ["https://github.com/apbmsea"]
+    },
+    {
+      "id": 3,
+      "name": "Дмитрий",
+      "lastname": "Сидоров",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "TestRail",
+        "Postman",
+        "Cypress",
+        "JIRA",
+        "Appium"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 848 150 97 70",
+        "+7 874 492 62 39"
+      ],
+      "links": [
+        "https://github.com/сидорова",
+        "https://kaggle.com/сидорова"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Екатерина",
+      "lastname": "Иванова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Nmap",
+        "Snort",
+        "Wireshark"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 697 227 52 67"
+      ],
+      "links": [
+        "https://kaggle.com/иванов",
+        "https://github.com/иванов",
+        "https://behance.net/иванов"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Екатерина",
+      "lastname": "Соколов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "TypeScript",
+        "SASS",
+        "Vue",
+        "Angular",
+        "React"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 650 467 24 76",
+        "+7 892 944 97 62"
+      ],
+      "links": [
+        "https://behance.net/соколов"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Владимир",
+      "lastname": "Лебедев",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Postman",
+        "TestRail",
+        "JIRA",
+        "Appium"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 974 940 44 58",
+        "+7 591 509 66 64"
+      ],
+      "links": [
+        "https://github.com/лебедев"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Иван",
+      "lastname": "Морозова",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "DevOps",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Kubernetes",
+        "Bash",
+        "Jenkins"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 312 481 18 48"
+      ],
+      "links": [
+        "https://github.com/морозова",
+        "https://behance.net/морозова"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Анна",
+      "lastname": "Иванов",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Kotlin",
+        "Dart",
+        "Flutter",
+        "Java",
+        "Swift",
+        "React Native"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 502 403 80 36",
+        "+7 466 283 55 71"
+      ],
+      "links": [
+        "https://dribbble.com/иванов"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Екатерина",
+      "lastname": "Петрова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Python",
+        "Docker",
+        "PostgreSQL",
+        "Redis",
+        "GraphQL"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 694 967 54 58",
+        "+7 978 963 89 58"
+      ],
+      "links": [
+        "https://dribbble.com/петрова"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Владимир",
+      "lastname": "Лебедев",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "REST API",
+        "Next.js",
+        "Django",
+        "React",
+        "Express"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 668 777 77 95"
+      ],
+      "links": [
+        "https://kaggle.com/лебедев"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ольга",
+      "lastname": "Морозова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "Terraform",
+        "CI/CD"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 900 784 19 77"
+      ],
+      "links": [
+        "https://behance.net/морозова"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Сергей",
+      "lastname": "Кузнецов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Sketch",
+        "InVision",
+        "Zeplin"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 830 516 88 91"
+      ],
+      "links": [
+        "https://github.com/кузнецов",
+        "https://behance.net/кузнецов",
+        "https://dribbble.com/кузнецов"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Иван",
+      "lastname": "Иванов",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Backend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Java",
+        "Python",
+        "Redis",
+        "Docker"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 759 566 15 41"
+      ],
+      "links": [
+        "https://kaggle.com/иванов",
+        "https://github.com/иванов"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Сергей",
+      "lastname": "Федорова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Wireshark",
+        "Nmap",
+        "Burp Suite"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 431 331 11 51",
+        "+7 644 596 27 88"
+      ],
+      "links": [
+        "https://dribbble.com/федорова",
+        "https://kaggle.com/федорова"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Сергей",
+      "lastname": "Кузнецов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Django",
+        "React",
+        "Python"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 278 355 51 36"
+      ],
+      "links": [
+        "https://kaggle.com/кузнецов",
+        "https://dribbble.com/кузнецов"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Анна",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Wireshark",
+        "Metasploit",
+        "Nmap"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 369 368 81 19"
+      ],
+      "links": [
+        "https://kaggle.com/морозова",
+        "https://github.com/морозова"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Екатерина",
+      "lastname": "Морозова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Selenium",
+        "TestRail",
+        "Katalon",
+        "Cypress"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 765 510 88 75"
+      ],
+      "links": [
+        "https://dribbble.com/морозова",
+        "https://kaggle.com/морозова"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Иван",
+      "lastname": "Ковалева",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "TestRail",
+        "Selenium",
+        "Appium"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 677 829 11 55"
+      ],
+      "links": [
+        "https://dribbble.com/ковалева",
+        "https://github.com/ковалева",
+        "https://linkedin.com/in/ковалева"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Анна",
+      "lastname": "Морозова",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "GraphQL",
+        "Java",
+        "PostgreSQL",
+        "Python",
+        "Redis"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 648 123 45 18"
+      ],
+      "links": [
+        "https://behance.net/морозова",
+        "https://github.com/морозова"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Мария",
+      "lastname": "Иванов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "CSS",
+        "Vue",
+        "JavaScript",
+        "Angular",
+        "HTML",
+        "React"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 303 784 27 85"
+      ],
+      "links": [
+        "https://dribbble.com/иванов",
+        "https://linkedin.com/in/иванов",
+        "https://behance.net/иванов"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Алексей",
+      "lastname": "Соколов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Express",
+        "REST API",
+        "Next.js",
+        "Python"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 549 352 45 39",
+        "+7 787 593 56 11"
+      ],
+      "links": [
+        "https://github.com/соколов",
+        "https://dribbble.com/соколов"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Алексей",
+      "lastname": "Лебедев",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Dart",
+        "Flutter",
+        "Java",
+        "Swift"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 880 587 59 26",
+        "+7 794 454 24 82"
+      ],
+      "links": [
+        "https://kaggle.com/лебедев",
+        "https://github.com/лебедев"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Екатерина",
+      "lastname": "Иванов",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Katalon",
+        "Cypress",
+        "Postman",
+        "Selenium",
+        "TestRail",
+        "Appium"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 862 813 15 76"
+      ],
+      "links": [
+        "https://linkedin.com/in/иванов",
+        "https://github.com/иванов",
+        "https://behance.net/иванов"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Владимир",
+      "lastname": "Иванов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Adobe XD",
+        "Figma",
+        "Zeplin"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 705 742 80 40",
+        "+7 307 709 43 78"
+      ],
+      "links": [
+        "https://linkedin.com/in/иванов",
+        "https://kaggle.com/иванов",
+        "https://dribbble.com/иванов"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Екатерина",
+      "lastname": "Иванов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Postman",
+        "JIRA",
+        "Selenium",
+        "TestRail",
+        "Katalon",
+        "Cypress"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 404 905 44 60",
+        "+7 150 408 46 76"
+      ],
+      "links": [
+        "https://kaggle.com/иванов",
+        "https://behance.net/иванов",
+        "https://github.com/иванов"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Сергей",
+      "lastname": "Кузнецов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Flutter",
+        "Kotlin",
+        "Swift",
+        "Dart"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 594 518 51 12",
+        "+7 100 481 43 72"
+      ],
+      "links": [
+        "https://behance.net/кузнецов",
+        "https://kaggle.com/кузнецов",
+        "https://github.com/кузнецов"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Владимир",
+      "lastname": "Морозова",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Dart",
+        "Swift",
+        "Kotlin"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 138 129 45 13"
+      ],
+      "links": [
+        "https://dribbble.com/морозова",
+        "https://linkedin.com/in/морозова",
+        "https://behance.net/морозова"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Мария",
+      "lastname": "Петрова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Jenkins",
+        "Docker",
+        "CI/CD",
+        "Bash",
+        "AWS"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 110 104 87 35",
+        "+7 679 516 61 52"
+      ],
+      "links": [
+        "https://github.com/петрова",
+        "https://behance.net/петрова"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Иван",
+      "lastname": "Морозова",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "TypeScript",
+        "CSS",
+        "Angular"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 687 771 48 87",
+        "+7 806 394 57 99"
+      ],
+      "links": [
+        "https://dribbble.com/морозова",
+        "https://github.com/морозова",
+        "https://behance.net/морозова"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Мария",
+      "lastname": "Петрова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Data Scientist",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "NumPy",
+        "PyTorch",
+        "TensorFlow",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 974 463 36 83"
+      ],
+      "links": [
+        "https://kaggle.com/петрова",
+        "https://behance.net/петрова"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Иван",
+      "lastname": "Сидорова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Burp Suite",
+        "Snort",
+        "Metasploit"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 225 950 72 24",
+        "+7 368 994 81 69"
+      ],
+      "links": [
+        "https://github.com/сидорова"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Владимир",
+      "lastname": "Соколов",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Figma",
+        "InVision",
+        "Sketch",
+        "Zeplin"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 315 286 67 64"
+      ],
+      "links": [
+        "https://behance.net/соколов",
+        "https://github.com/соколов"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Екатерина",
+      "lastname": "Смирнов",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Metasploit",
+        "Nmap",
+        "Python",
+        "Wireshark"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 949 611 28 34",
+        "+7 473 161 89 36"
+      ],
+      "links": [
+        "https://github.com/смирнов",
+        "https://behance.net/смирнов"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Анна",
+      "lastname": "Иванов",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Fullstack",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "React",
+        "MongoDB",
+        "Node.js",
+        "Django",
+        "Python",
+        "REST API"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 477 659 82 36"
+      ],
+      "links": [
+        "https://dribbble.com/иванов"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Ольга",
+      "lastname": "Соколов",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Game Developer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Unity",
+        "Maya",
+        "Godot",
+        "C#",
+        "Blender"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 482 333 32 45"
+      ],
+      "links": [
+        "https://behance.net/соколов"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Дмитрий",
+      "lastname": "Петрова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Adobe XD",
+        "Sketch",
+        "Figma",
+        "Zeplin",
+        "InVision"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 432 977 29 17",
+        "+7 362 174 58 22"
+      ],
+      "links": [
+        "https://dribbble.com/петрова",
+        "https://behance.net/петрова",
+        "https://github.com/петрова"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Сергей",
+      "lastname": "Лебедев",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Webpack",
+        "React",
+        "JavaScript",
+        "CSS"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 412 490 13 44"
+      ],
+      "links": [
+        "https://linkedin.com/in/лебедев",
+        "https://github.com/лебедев",
+        "https://dribbble.com/лебедев"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Ксения",
+      "lastname": "Лебедев",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Burp Suite",
+        "Python",
+        "Nmap",
+        "Metasploit",
+        "Snort",
+        "Wireshark"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 438 578 94 97"
+      ],
+      "links": [
+        "https://linkedin.com/in/лебедев",
+        "https://dribbble.com/лебедев",
+        "https://behance.net/лебедев"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Анна",
+      "lastname": "Лебедев",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Postman",
+        "JIRA",
+        "Appium",
+        "TestRail",
+        "Katalon",
+        "Cypress"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 930 694 88 60",
+        "+7 787 917 75 63"
+      ],
+      "links": [
+        "https://behance.net/лебедев"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Сергей",
+      "lastname": "Смирнов",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Matplotlib",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "Python"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 270 159 66 68"
+      ],
+      "links": [
+        "https://linkedin.com/in/смирнов"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Ольга",
+      "lastname": "Лебедев",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Fullstack",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Django",
+        "MongoDB",
+        "REST API",
+        "Python"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 634 549 26 78",
+        "+7 427 267 16 81"
+      ],
+      "links": [
+        "https://linkedin.com/in/лебедев",
+        "https://behance.net/лебедев",
+        "https://kaggle.com/лебедев"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Дмитрий",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Game Developer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Blender",
+        "Unreal Engine",
+        "Maya"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 472 762 27 78"
+      ],
+      "links": [
+        "https://kaggle.com/морозова",
+        "https://behance.net/морозова"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Дмитрий",
+      "lastname": "Федорова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Selenium",
+        "Katalon",
+        "Cypress",
+        "Appium",
+        "Postman",
+        "JIRA"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 177 273 64 32",
+        "+7 971 935 89 22"
+      ],
+      "links": [
+        "https://linkedin.com/in/федорова"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Ксения",
+      "lastname": "Иванов",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "React Native",
+        "Kotlin",
+        "Dart",
+        "Swift"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 401 873 85 94",
+        "+7 657 179 90 67"
+      ],
+      "links": [
+        "https://github.com/иванов"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Анна",
+      "lastname": "Лебедев",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "JIRA",
+        "Appium",
+        "TestRail"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 968 329 13 29"
+      ],
+      "links": [
+        "https://github.com/лебедев",
+        "https://behance.net/лебедев"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Алексей",
+      "lastname": "Соколов",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Django",
+        "Node.js",
+        "MongoDB",
+        "Next.js"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 210 312 75 48"
+      ],
+      "links": [
+        "https://kaggle.com/соколов",
+        "https://github.com/соколов"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Дмитрий",
+      "lastname": "Петрова",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Burp Suite",
+        "Python",
+        "Metasploit",
+        "Wireshark"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 169 433 51 33"
+      ],
+      "links": [
+        "https://kaggle.com/петрова",
+        "https://github.com/петрова",
+        "https://linkedin.com/in/петрова"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Мария",
+      "lastname": "Федорова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Selenium",
+        "Appium",
+        "Katalon",
+        "JIRA",
+        "Postman",
+        "TestRail"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 122 464 97 64",
+        "+7 218 840 10 46"
+      ],
+      "links": [
+        "https://linkedin.com/in/федорова",
+        "https://dribbble.com/федорова"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Владимир",
+      "lastname": "Смирнов",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Figma",
+        "InVision",
+        "Zeplin",
+        "Adobe XD"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 190 292 27 62",
+        "+7 873 495 10 13"
+      ],
+      "links": [
+        "https://behance.net/смирнов",
+        "https://dribbble.com/смирнов",
+        "https://github.com/смирнов"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Анна",
+      "lastname": "Ковалева",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Python",
+        "Wireshark",
+        "Metasploit",
+        "Snort",
+        "Burp Suite"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 433 179 20 65"
+      ],
+      "links": [
+        "https://behance.net/ковалева",
+        "https://kaggle.com/ковалева",
+        "https://dribbble.com/ковалева"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Сергей",
+      "lastname": "Иванов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Vue",
+        "Angular",
+        "JavaScript"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 353 706 97 88",
+        "+7 268 999 48 65"
+      ],
+      "links": [
+        "https://dribbble.com/иванов",
+        "https://kaggle.com/иванов",
+        "https://behance.net/иванов"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Анна",
+      "lastname": "Кузнецов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "React",
+        "SASS"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 109 407 35 63",
+        "+7 141 514 20 61"
+      ],
+      "links": [
+        "https://behance.net/кузнецов",
+        "https://linkedin.com/in/кузнецов",
+        "https://github.com/кузнецов"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Анна",
+      "lastname": "Федорова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "JIRA",
+        "Cypress",
+        "TestRail",
+        "Katalon"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 926 966 77 94"
+      ],
+      "links": [
+        "https://behance.net/федорова",
+        "https://linkedin.com/in/федорова",
+        "https://dribbble.com/федорова"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Алексей",
+      "lastname": "Смирнов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Matplotlib",
+        "TensorFlow",
+        "Scikit-learn",
+        "NumPy",
+        "Python",
+        "PyTorch"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 646 700 72 63"
+      ],
+      "links": [
+        "https://kaggle.com/смирнов",
+        "https://behance.net/смирнов",
+        "https://dribbble.com/смирнов"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Дмитрий",
+      "lastname": "Морозова",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "REST API",
+        "Node.js",
+        "MongoDB",
+        "Next.js",
+        "React"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 237 244 23 73",
+        "+7 733 884 17 54"
+      ],
+      "links": [
+        "https://github.com/морозова",
+        "https://linkedin.com/in/морозова",
+        "https://kaggle.com/морозова"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Екатерина",
+      "lastname": "Ковалева",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Swift",
+        "Flutter",
+        "Java",
+        "Dart",
+        "Kotlin"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 859 899 35 97",
+        "+7 113 954 68 55"
+      ],
+      "links": [
+        "https://behance.net/ковалева",
+        "https://dribbble.com/ковалева"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Ольга",
+      "lastname": "Кузнецов",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "SQL",
+        "PostgreSQL",
+        "Python",
+        "Redis",
+        "Java",
+        "GraphQL"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 516 695 22 42"
+      ],
+      "links": [
+        "https://github.com/кузнецов"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Иван",
+      "lastname": "Ковалева",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Java",
+        "Flutter",
+        "Kotlin",
+        "React Native",
+        "Dart"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 146 877 80 80",
+        "+7 273 648 51 46"
+      ],
+      "links": [
+        "https://github.com/ковалева"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Екатерина",
+      "lastname": "Ковалева",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "TypeScript",
+        "CSS",
+        "JavaScript",
+        "Vue",
+        "React"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 975 102 23 36",
+        "+7 225 480 76 97"
+      ],
+      "links": [
+        "https://linkedin.com/in/ковалева"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Дмитрий",
+      "lastname": "Кузнецов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "DevOps",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "CI/CD",
+        "Terraform",
+        "Bash",
+        "Jenkins",
+        "Docker",
+        "AWS"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 345 550 51 76",
+        "+7 705 631 95 67"
+      ],
+      "links": [
+        "https://dribbble.com/кузнецов",
+        "https://behance.net/кузнецов"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Владимир",
+      "lastname": "Кузнецов",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "DevOps",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Bash",
+        "Jenkins",
+        "Terraform"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 624 162 50 60",
+        "+7 472 250 91 21"
+      ],
+      "links": [
+        "https://github.com/кузнецов",
+        "https://linkedin.com/in/кузнецов",
+        "https://behance.net/кузнецов"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Владимир",
+      "lastname": "Иванов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Wireshark",
+        "Python",
+        "Metasploit",
+        "Burp Suite",
+        "Nmap",
+        "Snort"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 878 463 90 56"
+      ],
+      "links": [
+        "https://github.com/иванов"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Сергей",
+      "lastname": "Петрова",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Kotlin",
+        "Java",
+        "Flutter",
+        "Dart"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 168 652 88 39",
+        "+7 831 799 47 41"
+      ],
+      "links": [
+        "https://kaggle.com/петрова",
+        "https://github.com/петрова"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Ольга",
+      "lastname": "Морозова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Kubernetes",
+        "Bash",
+        "CI/CD",
+        "AWS",
+        "Jenkins"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 857 368 67 26",
+        "+7 334 932 71 25"
+      ],
+      "links": [
+        "https://behance.net/морозова"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Ксения",
+      "lastname": "Петрова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "Game Developer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "C#",
+        "Unreal Engine",
+        "Godot"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 678 724 66 78"
+      ],
+      "links": [
+        "https://linkedin.com/in/петрова",
+        "https://kaggle.com/петрова"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Сергей",
+      "lastname": "Петрова",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Postman",
+        "Selenium",
+        "TestRail",
+        "Katalon",
+        "JIRA"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 295 756 42 39"
+      ],
+      "links": [
+        "https://behance.net/петрова"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Ксения",
+      "lastname": "Петрова",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Flutter",
+        "React Native",
+        "Dart",
+        "Swift",
+        "Kotlin",
+        "Java"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 183 746 85 27"
+      ],
+      "links": [
+        "https://linkedin.com/in/петрова",
+        "https://behance.net/петрова"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Сергей",
+      "lastname": "Федорова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Game Developer",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Godot",
+        "Blender",
+        "C#",
+        "Maya",
+        "Unreal Engine",
+        "Unity"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 280 454 63 41",
+        "+7 667 939 16 82"
+      ],
+      "links": [
+        "https://linkedin.com/in/федорова"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Сергей",
+      "lastname": "Соколов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "DevOps",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Kubernetes",
+        "AWS",
+        "Jenkins"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 171 889 45 27",
+        "+7 165 333 14 39"
+      ],
+      "links": [
+        "https://github.com/соколов",
+        "https://linkedin.com/in/соколов",
+        "https://dribbble.com/соколов"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Ольга",
+      "lastname": "Кузнецов",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Terraform",
+        "Docker",
+        "Bash",
+        "AWS",
+        "CI/CD"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 925 273 83 31",
+        "+7 180 351 87 21"
+      ],
+      "links": [
+        "https://kaggle.com/кузнецов",
+        "https://linkedin.com/in/кузнецов",
+        "https://github.com/кузнецов"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Екатерина",
+      "lastname": "Морозова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Game Developer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "C#",
+        "Godot",
+        "Unity",
+        "Blender",
+        "Maya"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 198 302 27 27"
+      ],
+      "links": [
+        "https://behance.net/морозова",
+        "https://kaggle.com/морозова",
+        "https://linkedin.com/in/морозова"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Сергей",
+      "lastname": "Иванов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "TypeScript",
+        "JavaScript",
+        "Angular"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 667 629 28 60"
+      ],
+      "links": [
+        "https://behance.net/иванов",
+        "https://linkedin.com/in/иванов"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Мария",
+      "lastname": "Петрова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Redis",
+        "Docker",
+        "SQL"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 280 671 44 85"
+      ],
+      "links": [
+        "https://linkedin.com/in/петрова",
+        "https://kaggle.com/петрова",
+        "https://behance.net/петрова"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Екатерина",
+      "lastname": "Соколов",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "SASS",
+        "Vue",
+        "JavaScript",
+        "TypeScript",
+        "CSS"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 701 268 99 87",
+        "+7 343 161 89 18"
+      ],
+      "links": [
+        "https://dribbble.com/соколов",
+        "https://kaggle.com/соколов",
+        "https://behance.net/соколов"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Сергей",
+      "lastname": "Смирнов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Burp Suite",
+        "Nmap",
+        "Python",
+        "Wireshark",
+        "Metasploit"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 857 520 12 42",
+        "+7 807 228 33 25"
+      ],
+      "links": [
+        "https://dribbble.com/смирнов"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Дмитрий",
+      "lastname": "Ковалева",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Backend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "GraphQL",
+        "Redis",
+        "Python",
+        "Docker",
+        "Java",
+        "SQL"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 391 320 30 95"
+      ],
+      "links": [
+        "https://linkedin.com/in/ковалева",
+        "https://behance.net/ковалева"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Ксения",
+      "lastname": "Ковалева",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Python",
+        "Go",
+        "Docker",
+        "Java",
+        "Redis",
+        "GraphQL"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 515 182 99 43"
+      ],
+      "links": [
+        "https://linkedin.com/in/ковалева"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Алексей",
+      "lastname": "Петрова",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "MongoDB",
+        "Django",
+        "React",
+        "REST API",
+        "Express",
+        "Python"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 551 482 50 75",
+        "+7 568 475 87 13"
+      ],
+      "links": [
+        "https://dribbble.com/петрова",
+        "https://linkedin.com/in/петрова"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Дмитрий",
+      "lastname": "Сидорова",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "TypeScript",
+        "React",
+        "Angular"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 854 900 93 23",
+        "+7 237 814 63 84"
+      ],
+      "links": [
+        "https://kaggle.com/сидорова"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Мария",
+      "lastname": "Лебедев",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "AWS",
+        "Terraform",
+        "Bash",
+        "CI/CD"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 420 786 17 84",
+        "+7 887 674 17 93"
+      ],
+      "links": [
+        "https://github.com/лебедев",
+        "https://kaggle.com/лебедев",
+        "https://linkedin.com/in/лебедев"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Ольга",
+      "lastname": "Соколов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Fullstack",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Next.js"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 374 427 64 12"
+      ],
+      "links": [
+        "https://kaggle.com/соколов",
+        "https://behance.net/соколов",
+        "https://github.com/соколов"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Анна",
+      "lastname": "Соколов",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "React Native",
+        "Java",
+        "Swift",
+        "Dart"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 648 558 72 42",
+        "+7 920 885 87 80"
+      ],
+      "links": [
+        "https://dribbble.com/соколов",
+        "https://behance.net/соколов",
+        "https://kaggle.com/соколов"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Екатерина",
+      "lastname": "Соколов",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "JIRA",
+        "TestRail",
+        "Cypress",
+        "Selenium",
+        "Katalon"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 934 345 82 65",
+        "+7 448 245 50 91"
+      ],
+      "links": [
+        "https://dribbble.com/соколов",
+        "https://linkedin.com/in/соколов",
+        "https://github.com/соколов"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Мария",
+      "lastname": "Смирнов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Vue",
+        "Webpack",
+        "CSS",
+        "React",
+        "Angular"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 112 918 17 78",
+        "+7 781 831 57 53"
+      ],
+      "links": [
+        "https://behance.net/смирнов"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Екатерина",
+      "lastname": "Кузнецов",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Adobe XD",
+        "Sketch",
+        "Zeplin",
+        "InVision"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 301 591 17 87"
+      ],
+      "links": [
+        "https://github.com/кузнецов"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Ксения",
+      "lastname": "Кузнецов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "InVision",
+        "Adobe XD",
+        "Sketch",
+        "Zeplin",
+        "Figma"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 615 353 29 87",
+        "+7 268 970 53 94"
+      ],
+      "links": [
+        "https://kaggle.com/кузнецов",
+        "https://dribbble.com/кузнецов",
+        "https://behance.net/кузнецов"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Мария",
+      "lastname": "Федорова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Swift",
+        "Kotlin",
+        "React Native"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 755 978 79 63",
+        "+7 576 863 98 18"
+      ],
+      "links": [
+        "https://linkedin.com/in/федорова",
+        "https://behance.net/федорова"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Ольга",
+      "lastname": "Федорова",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Fullstack",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "REST API",
+        "Next.js",
+        "Django",
+        "Python",
+        "Express",
+        "MongoDB"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 150 857 40 58"
+      ],
+      "links": [
+        "https://dribbble.com/федорова"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Мария",
+      "lastname": "Сидорова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Postman",
+        "Katalon",
+        "JIRA",
+        "Cypress",
+        "TestRail"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 101 940 77 62"
+      ],
+      "links": [
+        "https://linkedin.com/in/сидорова"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Иван",
+      "lastname": "Петрова",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "HTML",
+        "Vue",
+        "JavaScript"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 979 135 75 13"
+      ],
+      "links": [
+        "https://kaggle.com/петрова",
+        "https://dribbble.com/петрова"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Мария",
+      "lastname": "Федорова",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "GraphQL",
+        "SQL",
+        "Go",
+        "Java"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 983 248 99 66",
+        "+7 698 308 46 64"
+      ],
+      "links": [
+        "https://kaggle.com/федорова"
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Владимир",
+      "lastname": "Морозова",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "DevOps",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "CI/CD",
+        "Jenkins",
+        "AWS",
+        "Kubernetes"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 861 454 96 78",
+        "+7 357 129 72 75"
+      ],
+      "links": [
+        "https://linkedin.com/in/морозова",
+        "https://dribbble.com/морозова",
+        "https://kaggle.com/морозова"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Ольга",
+      "lastname": "Иванов",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "SASS",
+        "React",
+        "Vue",
+        "JavaScript",
+        "HTML",
+        "Angular"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 874 494 34 66",
+        "+7 889 459 17 66"
+      ],
+      "links": [
+        "https://linkedin.com/in/иванов"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Екатерина",
+      "lastname": "Лебедев",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Java",
+        "React Native",
+        "Dart",
+        "Kotlin",
+        "Swift",
+        "Flutter"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 656 906 42 78"
+      ],
+      "links": [
+        "https://linkedin.com/in/лебедев",
+        "https://dribbble.com/лебедев",
+        "https://behance.net/лебедев"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Мария",
+      "lastname": "Морозова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "GraphQL",
+        "Python",
+        "Go"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 868 840 63 71",
+        "+7 769 572 92 76"
+      ],
+      "links": [
+        "https://behance.net/морозова",
+        "https://dribbble.com/морозова"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Анна",
+      "lastname": "Федорова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Fullstack",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Next.js",
+        "React",
+        "Express",
+        "MongoDB",
+        "REST API",
+        "Node.js"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 657 174 98 62",
+        "+7 914 719 81 46"
+      ],
+      "links": [
+        "https://kaggle.com/федорова"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Ксения",
+      "lastname": "Ковалева",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Metasploit",
+        "Wireshark",
+        "Nmap"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 887 943 17 54"
+      ],
+      "links": [
+        "https://kaggle.com/ковалева",
+        "https://dribbble.com/ковалева",
+        "https://github.com/ковалева"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Анна",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Jenkins",
+        "Bash",
+        "Kubernetes",
+        "CI/CD",
+        "Terraform"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 488 134 21 77",
+        "+7 622 722 97 29"
+      ],
+      "links": [
+        "https://dribbble.com/морозова"
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Ксения",
+      "lastname": "Сидорова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "JIRA",
+        "Appium",
+        "Postman",
+        "TestRail",
+        "Katalon",
+        "Cypress"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 290 683 19 57",
+        "+7 394 901 87 87"
+      ],
+      "links": [
+        "https://kaggle.com/сидорова"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Алексей",
+      "lastname": "Лебедев",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "TensorFlow",
+        "Pandas",
+        "Python"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 713 307 31 73",
+        "+7 922 115 76 38"
+      ],
+      "links": [
+        "https://dribbble.com/лебедев",
+        "https://kaggle.com/лебедев",
+        "https://behance.net/лебедев"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Ольга",
+      "lastname": "Лебедев",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Appium",
+        "JIRA",
+        "Postman",
+        "TestRail",
+        "Cypress"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 426 800 94 44",
+        "+7 175 648 48 91"
+      ],
+      "links": [
+        "https://github.com/лебедев",
+        "https://linkedin.com/in/лебедев"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Ольга",
+      "lastname": "Кузнецов",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Wireshark",
+        "Python",
+        "Nmap",
+        "Metasploit",
+        "Burp Suite",
+        "Snort"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 558 714 61 80"
+      ],
+      "links": [
+        "https://behance.net/кузнецов",
+        "https://github.com/кузнецов",
+        "https://dribbble.com/кузнецов"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Дмитрий",
+      "lastname": "Кузнецов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Zeplin",
+        "InVision",
+        "Adobe XD",
+        "Sketch"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 178 994 77 32"
+      ],
+      "links": [
+        "https://linkedin.com/in/кузнецов",
+        "https://behance.net/кузнецов",
+        "https://dribbble.com/кузнецов"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Анна",
+      "lastname": "Иванов",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Redis",
+        "PostgreSQL",
+        "Java",
+        "SQL"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 199 698 59 73",
+        "+7 990 893 69 13"
+      ],
+      "links": [
+        "https://github.com/иванов",
+        "https://dribbble.com/иванов",
+        "https://kaggle.com/иванов"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Владимир",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Game Developer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Unreal Engine",
+        "Unity",
+        "Blender",
+        "Godot",
+        "C#",
+        "Maya"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 210 380 24 20",
+        "+7 430 789 82 54"
+      ],
+      "links": [
+        "https://github.com/морозова"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Владимир",
+      "lastname": "Петрова",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "JIRA",
+        "Appium",
+        "Katalon",
+        "TestRail"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 698 743 15 87",
+        "+7 886 394 28 81"
+      ],
+      "links": [
+        "https://kaggle.com/петрова",
+        "https://github.com/петрова"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Ольга",
+      "lastname": "Морозова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "TestRail",
+        "Cypress",
+        "Selenium",
+        "JIRA"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 199 373 99 33",
+        "+7 477 496 74 64"
+      ],
+      "links": [
+        "https://linkedin.com/in/морозова"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Алексей",
+      "lastname": "Сидорова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Python",
+        "MongoDB",
+        "Django",
+        "Express",
+        "Next.js",
+        "REST API"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 583 104 32 33"
+      ],
+      "links": [
+        "https://github.com/сидорова"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Анна",
+      "lastname": "Ковалева",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "PostgreSQL",
+        "Java",
+        "SQL",
+        "Python",
+        "Docker"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 961 420 53 30",
+        "+7 602 922 35 79"
+      ],
+      "links": [
+        "https://linkedin.com/in/ковалева",
+        "https://kaggle.com/ковалева"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Екатерина",
+      "lastname": "Лебедев",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "TestRail",
+        "Selenium",
+        "Katalon",
+        "Appium",
+        "Postman",
+        "Cypress"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 750 871 29 62"
+      ],
+      "links": [
+        "https://github.com/лебедев",
+        "https://kaggle.com/лебедев",
+        "https://behance.net/лебедев"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Екатерина",
+      "lastname": "Морозова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Snort",
+        "Nmap",
+        "Wireshark",
+        "Metasploit",
+        "Burp Suite"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 756 382 47 45",
+        "+7 637 194 92 35"
+      ],
+      "links": [
+        "https://linkedin.com/in/морозова",
+        "https://kaggle.com/морозова"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Екатерина",
+      "lastname": "Петрова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Figma",
+        "Zeplin",
+        "InVision",
+        "Sketch"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 692 301 70 77",
+        "+7 974 786 17 60"
+      ],
+      "links": [
+        "https://kaggle.com/петрова",
+        "https://behance.net/петрова"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Дмитрий",
+      "lastname": "Петрова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Figma",
+        "Zeplin",
+        "Adobe XD"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 524 239 44 53",
+        "+7 569 463 53 84"
+      ],
+      "links": [
+        "https://kaggle.com/петрова",
+        "https://dribbble.com/петрова"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Алексей",
+      "lastname": "Иванов",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "NumPy",
+        "Scikit-learn",
+        "TensorFlow",
+        "Pandas",
+        "Matplotlib"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 686 302 18 48",
+        "+7 349 168 33 24"
+      ],
+      "links": [
+        "https://github.com/иванов",
+        "https://behance.net/иванов"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Ксения",
+      "lastname": "Федорова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "JIRA",
+        "Katalon",
+        "Postman",
+        "Cypress",
+        "Selenium"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 540 286 40 93",
+        "+7 742 114 65 19"
+      ],
+      "links": [
+        "https://kaggle.com/федорова",
+        "https://linkedin.com/in/федорова"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Сергей",
+      "lastname": "Федорова",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "MongoDB",
+        "Express",
+        "Django",
+        "React",
+        "Node.js"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 413 640 29 94",
+        "+7 794 767 56 37"
+      ],
+      "links": [
+        "https://behance.net/федорова"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Алексей",
+      "lastname": "Федорова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "NumPy",
+        "Python",
+        "Matplotlib",
+        "TensorFlow"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 327 336 24 30"
+      ],
+      "links": [
+        "https://linkedin.com/in/федорова",
+        "https://behance.net/федорова"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Иван",
+      "lastname": "Петрова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "JavaScript",
+        "SASS",
+        "TypeScript"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 232 392 34 60"
+      ],
+      "links": [
+        "https://kaggle.com/петрова",
+        "https://linkedin.com/in/петрова",
+        "https://github.com/петрова"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Ксения",
+      "lastname": "Федорова",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Fullstack",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "MongoDB",
+        "Django",
+        "Next.js",
+        "REST API",
+        "Node.js"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 418 813 39 65"
+      ],
+      "links": [
+        "https://github.com/федорова"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Ольга",
+      "lastname": "Сидорова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Terraform",
+        "AWS",
+        "Docker",
+        "Kubernetes"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 151 944 85 82"
+      ],
+      "links": [
+        "https://dribbble.com/сидорова",
+        "https://behance.net/сидорова",
+        "https://linkedin.com/in/сидорова"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Анна",
+      "lastname": "Кузнецов",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "PostgreSQL",
+        "Java",
+        "Redis"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 393 810 52 57"
+      ],
+      "links": [
+        "https://linkedin.com/in/кузнецов",
+        "https://kaggle.com/кузнецов",
+        "https://behance.net/кузнецов"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Сергей",
+      "lastname": "Соколов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Wireshark",
+        "Nmap",
+        "Python",
+        "Snort"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 486 271 71 57"
+      ],
+      "links": [
+        "https://behance.net/соколов",
+        "https://linkedin.com/in/соколов",
+        "https://github.com/соколов"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Дмитрий",
+      "lastname": "Иванов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "DevOps",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "CI/CD"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 392 560 11 48",
+        "+7 479 948 20 42"
+      ],
+      "links": [
+        "https://kaggle.com/иванов",
+        "https://dribbble.com/иванов",
+        "https://linkedin.com/in/иванов"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Анна",
+      "lastname": "Петрова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "CSS",
+        "TypeScript",
+        "HTML",
+        "Angular"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 384 356 39 36"
+      ],
+      "links": [
+        "https://behance.net/петрова",
+        "https://github.com/петрова"
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Ксения",
+      "lastname": "Иванов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Terraform",
+        "AWS",
+        "Jenkins",
+        "CI/CD"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 857 725 24 99"
+      ],
+      "links": [
+        "https://dribbble.com/иванов"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Сергей",
+      "lastname": "Ковалева",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Angular",
+        "SASS",
+        "React",
+        "JavaScript"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 234 366 48 45"
+      ],
+      "links": [
+        "https://github.com/ковалева"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Сергей",
+      "lastname": "Федорова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Metasploit",
+        "Nmap",
+        "Python"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 570 809 36 18"
+      ],
+      "links": [
+        "https://kaggle.com/федорова",
+        "https://github.com/федорова",
+        "https://dribbble.com/федорова"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Мария",
+      "lastname": "Соколов",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "React Native",
+        "Dart",
+        "Kotlin",
+        "Flutter",
+        "Java",
+        "Swift"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 521 767 34 85",
+        "+7 339 614 98 91"
+      ],
+      "links": [
+        "https://behance.net/соколов",
+        "https://linkedin.com/in/соколов"
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Анна",
+      "lastname": "Лебедев",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Postman",
+        "Katalon",
+        "Selenium",
+        "Appium",
+        "Cypress",
+        "JIRA"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 444 667 72 86",
+        "+7 721 299 43 86"
+      ],
+      "links": [
+        "https://behance.net/лебедев"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Владимир",
+      "lastname": "Ковалева",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "DevOps",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Jenkins",
+        "Bash",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "CI/CD"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 648 237 87 13"
+      ],
+      "links": [
+        "https://kaggle.com/ковалева"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Екатерина",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Sketch",
+        "InVision",
+        "Figma",
+        "Adobe XD"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 622 707 36 64"
+      ],
+      "links": [
+        "https://kaggle.com/морозова",
+        "https://github.com/морозова"
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Ольга",
+      "lastname": "Петрова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "SASS",
+        "Vue",
+        "Webpack"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 485 467 40 79",
+        "+7 804 846 52 51"
+      ],
+      "links": [
+        "https://github.com/петрова"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Владимир",
+      "lastname": "Иванов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Snort",
+        "Nmap",
+        "Wireshark",
+        "Python"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 976 500 19 51",
+        "+7 154 968 86 66"
+      ],
+      "links": [
+        "https://dribbble.com/иванов",
+        "https://kaggle.com/иванов"
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Анна",
+      "lastname": "Ковалева",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Data Scientist",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Python",
+        "Matplotlib",
+        "TensorFlow"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 187 239 45 60"
+      ],
+      "links": [
+        "https://behance.net/ковалева",
+        "https://github.com/ковалева"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Ксения",
+      "lastname": "Лебедев",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Dart",
+        "React Native",
+        "Swift"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 389 128 41 36",
+        "+7 715 333 99 13"
+      ],
+      "links": [
+        "https://dribbble.com/лебедев"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Анна",
+      "lastname": "Сидорова",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Burp Suite",
+        "Nmap",
+        "Metasploit",
+        "Wireshark",
+        "Python"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 218 767 22 22",
+        "+7 860 444 27 68"
+      ],
+      "links": [
+        "https://kaggle.com/сидорова"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Владимир",
+      "lastname": "Лебедев",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Cypress",
+        "Appium",
+        "TestRail",
+        "Postman"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 345 392 76 75"
+      ],
+      "links": [
+        "https://dribbble.com/лебедев",
+        "https://kaggle.com/лебедев"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Иван",
+      "lastname": "Смирнов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Kotlin",
+        "Swift",
+        "Flutter",
+        "Java",
+        "React Native"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 719 513 91 56",
+        "+7 766 733 59 13"
+      ],
+      "links": [
+        "https://github.com/смирнов"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Иван",
+      "lastname": "Сидорова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "JIRA",
+        "Cypress",
+        "Appium"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 655 287 22 97"
+      ],
+      "links": [
+        "https://behance.net/сидорова"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Дмитрий",
+      "lastname": "Федорова",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Game Developer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "C#",
+        "Unreal Engine",
+        "Blender"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 262 999 88 96"
+      ],
+      "links": [
+        "https://kaggle.com/федорова",
+        "https://behance.net/федорова",
+        "https://linkedin.com/in/федорова"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Владимир",
+      "lastname": "Соколов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Swift",
+        "React Native",
+        "Flutter",
+        "Kotlin",
+        "Java",
+        "Dart"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 573 858 63 41"
+      ],
+      "links": [
+        "https://linkedin.com/in/соколов"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Ольга",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Burp Suite",
+        "Nmap",
+        "Wireshark",
+        "Python",
+        "Metasploit",
+        "Snort"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 688 940 10 42",
+        "+7 756 153 69 22"
+      ],
+      "links": [
+        "https://linkedin.com/in/морозова",
+        "https://behance.net/морозова"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Ольга",
+      "lastname": "Петрова",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Data Scientist",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "PyTorch",
+        "Scikit-learn",
+        "Matplotlib",
+        "TensorFlow",
+        "Pandas"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 893 242 93 56"
+      ],
+      "links": [
+        "https://linkedin.com/in/петрова",
+        "https://github.com/петрова"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Дмитрий",
+      "lastname": "Федорова",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Backend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "GraphQL",
+        "SQL",
+        "Python",
+        "PostgreSQL"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 957 548 31 27",
+        "+7 143 519 96 12"
+      ],
+      "links": [
+        "https://behance.net/федорова",
+        "https://linkedin.com/in/федорова",
+        "https://github.com/федорова"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Екатерина",
+      "lastname": "Лебедев",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "JavaScript",
+        "Vue",
+        "React",
+        "HTML"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 964 138 68 23"
+      ],
+      "links": [
+        "https://kaggle.com/лебедев"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Владимир",
+      "lastname": "Смирнов",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "REST API",
+        "Express",
+        "Django",
+        "MongoDB",
+        "Python",
+        "Node.js"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 154 657 31 21"
+      ],
+      "links": [
+        "https://github.com/смирнов",
+        "https://linkedin.com/in/смирнов"
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Мария",
+      "lastname": "Лебедев",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "Frontend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "JavaScript",
+        "React",
+        "Webpack",
+        "HTML"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 849 485 41 24",
+        "+7 801 800 50 22"
+      ],
+      "links": [
+        "https://linkedin.com/in/лебедев",
+        "https://github.com/лебедев",
+        "https://dribbble.com/лебедев"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Владимир",
+      "lastname": "Кузнецов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Metasploit",
+        "Snort",
+        "Nmap"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 383 691 40 97"
+      ],
+      "links": [
+        "https://github.com/кузнецов",
+        "https://kaggle.com/кузнецов",
+        "https://dribbble.com/кузнецов"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Екатерина",
+      "lastname": "Соколов",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "CI/CD",
+        "Terraform",
+        "Kubernetes",
+        "Bash"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 231 515 61 61",
+        "+7 474 573 36 21"
+      ],
+      "links": [
+        "https://kaggle.com/соколов",
+        "https://linkedin.com/in/соколов"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Владимир",
+      "lastname": "Соколов",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Backend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "PostgreSQL",
+        "Go",
+        "Python"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 614 393 25 85",
+        "+7 914 375 25 86"
+      ],
+      "links": [
+        "https://github.com/соколов"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Алексей",
+      "lastname": "Сидорова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Postman",
+        "JIRA",
+        "Katalon",
+        "Selenium",
+        "Appium",
+        "Cypress"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 703 574 85 88",
+        "+7 260 408 77 71"
+      ],
+      "links": [
+        "https://kaggle.com/сидорова",
+        "https://github.com/сидорова",
+        "https://behance.net/сидорова"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Ксения",
+      "lastname": "Сидорова",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "GraphQL",
+        "PostgreSQL",
+        "Redis",
+        "Go",
+        "SQL",
+        "Python"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 397 862 19 58"
+      ],
+      "links": [
+        "https://behance.net/сидорова",
+        "https://github.com/сидорова",
+        "https://kaggle.com/сидорова"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Анна",
+      "lastname": "Смирнов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Fullstack",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Django",
+        "Next.js",
+        "React",
+        "Python",
+        "REST API"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 158 721 72 65",
+        "+7 453 710 47 19"
+      ],
+      "links": [
+        "https://behance.net/смирнов"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Алексей",
+      "lastname": "Кузнецов",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "HTML",
+        "Vue",
+        "React",
+        "TypeScript"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 330 307 54 17",
+        "+7 484 600 29 65"
+      ],
+      "links": [
+        "https://behance.net/кузнецов",
+        "https://github.com/кузнецов"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Мария",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Redis",
+        "SQL",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 573 974 11 62",
+        "+7 278 169 32 53"
+      ],
+      "links": [
+        "https://dribbble.com/морозова",
+        "https://kaggle.com/морозова",
+        "https://github.com/морозова"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Иван",
+      "lastname": "Сидорова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Backend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Go",
+        "Redis",
+        "Docker",
+        "PostgreSQL",
+        "SQL",
+        "GraphQL"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 484 440 68 61"
+      ],
+      "links": [
+        "https://github.com/сидорова",
+        "https://kaggle.com/сидорова",
+        "https://linkedin.com/in/сидорова"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Анна",
+      "lastname": "Федорова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Game Developer",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Unity",
+        "Unreal Engine",
+        "Godot",
+        "Maya"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 678 628 68 75"
+      ],
+      "links": [
+        "https://kaggle.com/федорова",
+        "https://github.com/федорова",
+        "https://behance.net/федорова"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Сергей",
+      "lastname": "Лебедев",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "DevOps",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Jenkins",
+        "Docker",
+        "Bash",
+        "Terraform",
+        "Kubernetes",
+        "CI/CD"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 999 690 54 22"
+      ],
+      "links": [
+        "https://dribbble.com/лебедев",
+        "https://linkedin.com/in/лебедев"
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Владимир",
+      "lastname": "Морозова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "PyTorch",
+        "Pandas",
+        "Python"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 573 679 54 65",
+        "+7 152 215 20 66"
+      ],
+      "links": [
+        "https://github.com/морозова",
+        "https://kaggle.com/морозова"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Ксения",
+      "lastname": "Лебедев",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Game Developer",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Godot",
+        "Unity",
+        "C#"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 919 524 41 63",
+        "+7 638 214 10 74"
+      ],
+      "links": [
+        "https://kaggle.com/лебедев",
+        "https://dribbble.com/лебедев",
+        "https://github.com/лебедев"
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Ольга",
+      "lastname": "Федорова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "InVision",
+        "Figma",
+        "Sketch"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 163 477 85 63",
+        "+7 855 342 95 67"
+      ],
+      "links": [
+        "https://kaggle.com/федорова"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Анна",
+      "lastname": "Федорова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Figma",
+        "Adobe XD",
+        "Sketch"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 966 846 59 96"
+      ],
+      "links": [
+        "https://linkedin.com/in/федорова"
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Владимир",
+      "lastname": "Сидорова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Zeplin",
+        "Adobe XD",
+        "Figma",
+        "Sketch"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 263 398 75 56"
+      ],
+      "links": [
+        "https://kaggle.com/сидорова"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Алексей",
+      "lastname": "Иванов",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "InVision",
+        "Adobe XD",
+        "Zeplin",
+        "Sketch",
+        "Figma"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 892 219 71 51"
+      ],
+      "links": [
+        "https://github.com/иванов",
+        "https://dribbble.com/иванов"
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Мария",
+      "lastname": "Соколов",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Fullstack",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Node.js",
+        "REST API",
+        "React",
+        "Express"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 609 790 77 55",
+        "+7 674 801 93 61"
+      ],
+      "links": [
+        "https://linkedin.com/in/соколов",
+        "https://kaggle.com/соколов",
+        "https://github.com/соколов"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Ольга",
+      "lastname": "Лебедев",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Data Scientist",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Pandas",
+        "TensorFlow",
+        "Python",
+        "Matplotlib",
+        "NumPy"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 388 586 28 82"
+      ],
+      "links": [
+        "https://behance.net/лебедев",
+        "https://dribbble.com/лебедев",
+        "https://kaggle.com/лебедев"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Сергей",
+      "lastname": "Иванов",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Dart",
+        "Kotlin",
+        "Flutter",
+        "Java",
+        "React Native"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 609 720 74 33"
+      ],
+      "links": [
+        "https://github.com/иванов",
+        "https://linkedin.com/in/иванов",
+        "https://kaggle.com/иванов"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Дмитрий",
+      "lastname": "Петрова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Express",
+        "Python",
+        "REST API"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 503 228 80 57",
+        "+7 912 241 13 52"
+      ],
+      "links": [
+        "https://linkedin.com/in/петрова"
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Дмитрий",
+      "lastname": "Смирнов",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Snort",
+        "Metasploit",
+        "Nmap",
+        "Python"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 683 575 51 87",
+        "+7 782 491 81 61"
+      ],
+      "links": [
+        "https://linkedin.com/in/смирнов"
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Владимир",
+      "lastname": "Сидорова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Kotlin",
+        "Java",
+        "Swift",
+        "Flutter",
+        "React Native"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 984 512 62 22",
+        "+7 687 373 72 88"
+      ],
+      "links": [
+        "https://github.com/сидорова"
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Сергей",
+      "lastname": "Федорова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "React",
+        "HTML",
+        "SASS",
+        "TypeScript",
+        "Vue"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 532 559 69 42",
+        "+7 616 114 74 99"
+      ],
+      "links": [
+        "https://linkedin.com/in/федорова",
+        "https://dribbble.com/федорова"
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Ксения",
+      "lastname": "Смирнов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Data Scientist",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Python",
+        "PyTorch",
+        "Scikit-learn"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 146 929 84 31"
+      ],
+      "links": [
+        "https://behance.net/смирнов"
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Сергей",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "TensorFlow",
+        "Python",
+        "Scikit-learn",
+        "Matplotlib",
+        "PyTorch",
+        "Pandas"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 630 146 39 19"
+      ],
+      "links": [
+        "https://github.com/морозова",
+        "https://linkedin.com/in/морозова"
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Дмитрий",
+      "lastname": "Иванов",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Next.js",
+        "Django",
+        "MongoDB"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 355 925 46 23"
+      ],
+      "links": [
+        "https://dribbble.com/иванов"
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Екатерина",
+      "lastname": "Морозова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Cybersecurity",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Burp Suite",
+        "Snort",
+        "Python"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 399 151 47 24"
+      ],
+      "links": [
+        "https://dribbble.com/морозова"
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Дмитрий",
+      "lastname": "Морозова",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Java",
+        "Kotlin",
+        "Flutter",
+        "Dart"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 266 733 45 64"
+      ],
+      "links": [
+        "https://dribbble.com/морозова"
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Владимир",
+      "lastname": "Лебедев",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "PyTorch",
+        "Python",
+        "Pandas",
+        "Matplotlib"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 438 796 40 91"
+      ],
+      "links": [
+        "https://dribbble.com/лебедев",
+        "https://kaggle.com/лебедев"
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Сергей",
+      "lastname": "Соколов",
+      "birthdate": "17",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Burp Suite",
+        "Nmap",
+        "Snort",
+        "Python",
+        "Wireshark"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 326 847 63 41"
+      ],
+      "links": [
+        "https://kaggle.com/соколов"
+      ]
+    },
+    {
+      "id": 179,
+      "name": "Мария",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Redis",
+        "PostgreSQL",
+        "Go",
+        "Docker",
+        "Java",
+        "GraphQL"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 312 548 76 69"
+      ],
+      "links": [
+        "https://dribbble.com/морозова"
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Алексей",
+      "lastname": "Ковалева",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Java",
+        "Flutter",
+        "Swift",
+        "Kotlin"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 644 405 12 63",
+        "+7 654 141 13 31"
+      ],
+      "links": [
+        "https://kaggle.com/ковалева",
+        "https://github.com/ковалева"
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Анна",
+      "lastname": "Ковалева",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "InVision",
+        "Sketch",
+        "Figma",
+        "Adobe XD",
+        "Zeplin"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 146 317 21 92",
+        "+7 962 128 34 47"
+      ],
+      "links": [
+        "https://github.com/ковалева",
+        "https://dribbble.com/ковалева",
+        "https://linkedin.com/in/ковалева"
+      ]
+    },
+    {
+      "id": 182,
+      "name": "Анна",
+      "lastname": "Лебедев",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Mobile Developer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Kotlin",
+        "Swift",
+        "Dart",
+        "Flutter"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 173 499 89 46",
+        "+7 260 727 65 35"
+      ],
+      "links": [
+        "https://github.com/лебедев",
+        "https://behance.net/лебедев",
+        "https://dribbble.com/лебедев"
+      ]
+    },
+    {
+      "id": 183,
+      "name": "Ольга",
+      "lastname": "Морозова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "QA Engineer",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "TestRail",
+        "Cypress",
+        "Appium",
+        "Katalon",
+        "JIRA",
+        "Postman"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 435 679 20 82",
+        "+7 506 100 91 39"
+      ],
+      "links": [
+        "https://kaggle.com/морозова",
+        "https://github.com/морозова",
+        "https://linkedin.com/in/морозова"
+      ]
+    },
+    {
+      "id": 184,
+      "name": "Екатерина",
+      "lastname": "Сидорова",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Data Scientist",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Matplotlib",
+        "NumPy",
+        "Python"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 760 675 70 58",
+        "+7 598 258 76 61"
+      ],
+      "links": [
+        "https://dribbble.com/сидорова",
+        "https://behance.net/сидорова"
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Сергей",
+      "lastname": "Лебедев",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "DevOps",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Terraform",
+        "CI/CD",
+        "Bash",
+        "Kubernetes",
+        "AWS",
+        "Docker"
+      ],
+      "description": "Обеспечиваю высокий уровень надежности и производительности систем.",
+      "phoneNumbers": [
+        "+7 888 109 69 97",
+        "+7 648 206 48 43"
+      ],
+      "links": [
+        "https://linkedin.com/in/лебедев",
+        "https://behance.net/лебедев",
+        "https://github.com/лебедев"
+      ]
+    },
+    {
+      "id": 186,
+      "name": "Мария",
+      "lastname": "Кузнецов",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Zeplin",
+        "InVision",
+        "Adobe XD",
+        "Sketch"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 462 738 90 48"
+      ],
+      "links": [
+        "https://linkedin.com/in/кузнецов"
+      ]
+    },
+    {
+      "id": 187,
+      "name": "Сергей",
+      "lastname": "Федорова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "2",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Zeplin",
+        "InVision",
+        "Figma",
+        "Sketch",
+        "Adobe XD"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 400 914 31 54"
+      ],
+      "links": [
+        "https://behance.net/федорова"
+      ]
+    },
+    {
+      "id": 188,
+      "name": "Екатерина",
+      "lastname": "Сидорова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "4",
+      "projects": [
+        "Проекты колледжа",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Adobe XD",
+        "InVision",
+        "Sketch",
+        "Zeplin"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 619 699 30 91",
+        "+7 822 930 32 95"
+      ],
+      "links": [
+        "https://kaggle.com/сидорова"
+      ]
+    },
+    {
+      "id": 189,
+      "name": "Сергей",
+      "lastname": "Федорова",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Data Scientist",
+      "course": "4",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Scikit-learn",
+        "TensorFlow",
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 396 658 28 30",
+        "+7 672 936 16 78"
+      ],
+      "links": [
+        "https://kaggle.com/федорова"
+      ]
+    },
+    {
+      "id": 190,
+      "name": "Ксения",
+      "lastname": "Сидорова",
+      "birthdate": "19",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "Python",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 811 255 50 70"
+      ],
+      "links": [
+        "https://behance.net/сидорова",
+        "https://kaggle.com/сидорова"
+      ]
+    },
+    {
+      "id": 191,
+      "name": "Анна",
+      "lastname": "Петрова",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "UI/UX Designer",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "InVision",
+        "Figma",
+        "Adobe XD",
+        "Zeplin",
+        "Sketch"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 850 351 22 29",
+        "+7 606 848 91 26"
+      ],
+      "links": [
+        "https://github.com/петрова",
+        "https://kaggle.com/петрова",
+        "https://dribbble.com/петрова"
+      ]
+    },
+    {
+      "id": 192,
+      "name": "Анна",
+      "lastname": "Кузнецов",
+      "birthdate": "18",
+      "gender": "Ж",
+      "specialty": "Fullstack",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "REST API",
+        "React",
+        "Express",
+        "Node.js",
+        "MongoDB"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 669 493 57 80"
+      ],
+      "links": [
+        "https://linkedin.com/in/кузнецов"
+      ]
+    },
+    {
+      "id": 193,
+      "name": "Мария",
+      "lastname": "Петрова",
+      "birthdate": "17",
+      "gender": "Ж",
+      "specialty": "Backend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты"
+      ],
+      "skills": [
+        "PostgreSQL",
+        "Redis",
+        "Python",
+        "GraphQL",
+        "SQL",
+        "Java"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 375 757 82 85",
+        "+7 698 755 76 50"
+      ],
+      "links": [
+        "https://dribbble.com/петрова"
+      ]
+    },
+    {
+      "id": 194,
+      "name": "Дмитрий",
+      "lastname": "Кузнецов",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Fullstack",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "REST API",
+        "Next.js",
+        "MongoDB",
+        "React"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 758 197 38 96"
+      ],
+      "links": [
+        "https://linkedin.com/in/кузнецов"
+      ]
+    },
+    {
+      "id": 195,
+      "name": "Иван",
+      "lastname": "Ковалева",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "QA Engineer",
+      "course": "4",
+      "projects": [
+        "Личные проекты студентов",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "TestRail",
+        "Postman",
+        "Cypress",
+        "Selenium",
+        "Appium"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 249 577 66 81",
+        "+7 619 485 31 84"
+      ],
+      "links": [
+        "https://dribbble.com/ковалева",
+        "https://github.com/ковалева"
+      ]
+    },
+    {
+      "id": 196,
+      "name": "Алексей",
+      "lastname": "Лебедев",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "Game Developer",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "C#",
+        "Godot",
+        "Blender",
+        "Maya",
+        "Unity"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 839 240 54 31",
+        "+7 146 959 66 34"
+      ],
+      "links": [
+        "https://linkedin.com/in/лебедев",
+        "https://dribbble.com/лебедев",
+        "https://behance.net/лебедев"
+      ]
+    },
+    {
+      "id": 197,
+      "name": "Иван",
+      "lastname": "Иванов",
+      "birthdate": "18",
+      "gender": "М",
+      "specialty": "UI/UX Designer",
+      "course": "2",
+      "projects": [
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Adobe XD",
+        "Zeplin",
+        "Figma",
+        "InVision",
+        "Sketch"
+      ],
+      "description": "Имею опыт в создании крупных проектов с нуля.",
+      "phoneNumbers": [
+        "+7 574 783 46 66"
+      ],
+      "links": [
+        "https://dribbble.com/иванов",
+        "https://github.com/иванов",
+        "https://behance.net/иванов"
+      ]
+    },
+    {
+      "id": 198,
+      "name": "Анна",
+      "lastname": "Соколов",
+      "birthdate": "16",
+      "gender": "Ж",
+      "specialty": "DevOps",
+      "course": "2",
+      "projects": [
+        "Фриланс проекты",
+        "Личные проекты студентов"
+      ],
+      "skills": [
+        "Bash",
+        "Terraform",
+        "AWS",
+        "Kubernetes",
+        "Jenkins"
+      ],
+      "description": "Создаю инновационные решения для сложных задач.",
+      "phoneNumbers": [
+        "+7 457 561 17 92"
+      ],
+      "links": [
+        "https://github.com/соколов",
+        "https://linkedin.com/in/соколов",
+        "https://kaggle.com/соколов"
+      ]
+    },
+    {
+      "id": 199,
+      "name": "Владимир",
+      "lastname": "Лебедев",
+      "birthdate": "19",
+      "gender": "М",
+      "specialty": "Frontend-Разработчик",
+      "course": "3",
+      "projects": [
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "TypeScript",
+        "HTML",
+        "Angular"
+      ],
+      "description": "Опытный специалист с сильными навыками работы в команде.",
+      "phoneNumbers": [
+        "+7 610 556 88 92",
+        "+7 409 349 38 41"
+      ],
+      "links": [
+        "https://linkedin.com/in/лебедев",
+        "https://dribbble.com/лебедев"
+      ]
+    },
+    {
+      "id": 200,
+      "name": "Владимир",
+      "lastname": "Смирнов",
+      "birthdate": "16",
+      "gender": "М",
+      "specialty": "Cybersecurity",
+      "course": "3",
+      "projects": [
+        "Фриланс проекты",
+        "Проекты колледжа"
+      ],
+      "skills": [
+        "Burp Suite",
+        "Snort",
+        "Wireshark"
+      ],
+      "description": "Разрабатываю удобные интерфейсы и высококачественные приложения.",
+      "phoneNumbers": [
+        "+7 283 304 43 86",
+        "+7 617 979 50 57"
+      ],
+      "links": [
+        "https://kaggle.com/смирнов",
+        "https://linkedin.com/in/смирнов"
+      ]
+    }
+  ]
+}

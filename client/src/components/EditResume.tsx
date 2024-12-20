@@ -20,7 +20,7 @@ const EditResume: React.FC = () => {
     useEffect(() => {
         const fetchResume = async () => {
             try {
-                const response = await axios.get(`http://localhost:8080/resumes/${id}`);
+                const response = await axios.get(`http://localhost:8000/resumes/${id}`);
                 setFormData(response.data);
             } catch (err) {
                 setError('Не удалось загрузить данные резюме.');
@@ -43,7 +43,7 @@ const EditResume: React.FC = () => {
         try {
             await axios.put(`http://localhost:8000/resumes/${id}`, formData);
             alert('Резюме успешно обновлено!');
-            navigate('/'); // Возврат на главную страницу или список резюме
+            navigate('/');
         } catch (err) {
             alert('Ошибка при обновлении резюме.');
         } finally {

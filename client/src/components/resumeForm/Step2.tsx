@@ -22,9 +22,9 @@ const Step2: React.FC<Step2Props> = ({ data, updateFormData }) => {
     };
 
     return (
-        <div className="step-2">
-            <h1>Выбор специальности и проекта</h1>
-            <div className="step-2__form step">
+        <div className="step-2 step">
+            <h1>Специальность</h1>
+            <div className="step-2__content step">
                 <label className="step-2__selector-box">
                     <select
                         name="specialty"

@@ -20,13 +20,11 @@ const Step3: React.FC<Step3Props> = ({ data, updateFormData }) => {
     useEffect(() => {
         const specialty = data.specialty || 'frontend';
 
-        // Очищаем выбранные скиллы при смене специальности
         if (data.specialty !== data.previousSpecialty) {
             setMySkills([]);
-            updateFormData({ skills: [] }); // Очистка скиллов в общем состоянии
+            updateFormData({ skills: [] });
         }
 
-        // Фильтрация предложенных скиллов
         const filteredSkills = skillsBySpecialty[specialty].filter(
             (skill) => !mySkills.includes(skill)
         );
@@ -46,7 +44,7 @@ const Step3: React.FC<Step3Props> = ({ data, updateFormData }) => {
     };
 
     return (
-        <div className="step-3">
+        <div className="step-3 step">
             <h1>Hard скиллы</h1>
             <div className="step-3__skills-container step">
                 <div className="my-skills">
