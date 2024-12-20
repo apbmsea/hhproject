@@ -1,0 +1,74 @@
+@use '../vars';
+
+.filters {
+  position: fixed;
+  margin: 1rem 150px;
+  width: 400px;
+  padding: 1rem;
+  background: vars.$color-white;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__group {
+    margin-bottom: 1rem;
+
+    label {
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    .filters__select {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .filters__checkboxes {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      label {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.9rem;
+        color: #555;
+      }
+    }
+
+    .filters__skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+
+      .filters__skill {
+        padding: 0.5rem 1rem;
+        background: #eee;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 0.9rem;
+
+        &--active {
+          background: #9605CA;
+          color: #fff;
+          border: 0;
+        }
+
+        &:hover {
+          background: #9605CA;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

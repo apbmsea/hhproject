@@ -1,0 +1,12 @@
+@use '../../vars';
+@use '../../Mixin' as mixin;
+
+.step-4{
+  margin-top: 3rem;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5pх;
+  border: 1px solid vars.$m-input-lighter-gray-color;
+}
