@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"second/internal/handlers/resumeHandler"
-	"second/internal/handlers/userHandler"
 	"second/internal/models"
 
 	"github.com/gin-gonic/gin"
@@ -40,56 +39,7 @@ func (h *Handler) GetAllCVsHandler(c *gin.Context) {
 		return
 	}
 
-	var cvsToShow []models.CVToShow
-
-	for _, cv := range cvs {
-		user, err := userHandler.GetUserByUUID(cv.UserID, h.DB)
-		var cvToShow = models.CVToShow{
-			Cv:     cv,
-			LFM:    user.LFM,
-			Course: user.Course,
-		}
-		if err != nil {
-			c.JSON(500, gin.H{"error": err.Error()})
-		}
-		cvsToShow = append(cvsToShow, cvToShow)
-	}
-
-	c.JSON(200, cvsToShow)
-}
-
-func (h *Handler) FilterCVsHandler(c *gin.Context) {
-	var params models.FilterParams
-	if err := c.ShouldBindJSON(&params); err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid query parameters"})
-		return
-	}
-
-	fmt.Println(params)
-
-	cvs, err := resumeHandler.GetMatchingCVs(h.DB, params)
-	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
-		return
-	}
-
-	var cvsToShow []models.CVToShow
-
-	for _, cv := range cvs {
-		user, err := userHandler.GetUserByUUID(cv.UserID, h.DB)
-		var cvToShow = models.CVToShow{
-			Cv:     cv,
-			LFM:    user.LFM,
-			Course: user.Course,
-		}
-		if err != nil {
-			c.JSON(500, gin.H{"error": err.Error()})
-			return
-		}
-		cvsToShow = append(cvsToShow, cvToShow)
-	}
-
-	c.JSON(200, cvsToShow)
+	c.JSON(200, cvs)
 }
 
 func (h *Handler) GetCVByIDHandler(c *gin.Context) {

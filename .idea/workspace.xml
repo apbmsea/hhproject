@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f472259-0472-4c84-b5d7-4afbc0f5fd6e" name="Changes" comment="" />
+    <list default="true" id="3f472259-0472-4c84-b5d7-4afbc0f5fd6e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/cmd/.main.go.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/internal/db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/db/migrations/0001_create_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/db/migrations/0002_create_resume.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/handlers/resumeHandler/.CrudResumes.go.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/handlers/resumeHandler/CrudResumes.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/internal/handlers/resumeHandler/CrudResumes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/handlers/userHandler/CrudUsers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/models/filterParams.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/models/resume.go" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/internal/models/resume.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/models/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/webServer/handlers/cvWebHandler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/internal/webServer/handlers/userWebHandler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/scripts/migrate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/scripts/migrate.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +59,7 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/daniillapin/desktop/hhproject",
+    "last_opened_file_path": "C:/Users/User/Desktop/all proj/hhproject_main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,8 +83,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-d297c17c1fbd-d82d926f19eb-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-243.22562.186" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-GO-243.22562.186" />
+        <option value="bundled-gosdk-d297c17c1fbd-b87a2f8923ed-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-243.21565.208" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-GO-243.21565.208" />
       </set>
     </attachedChunks>
   </component>
