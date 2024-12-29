@@ -1,0 +1,75 @@
+@use '../vars';
+
+.create-resume{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: vars.$landing-blue-color;
+
+  &-container{
+    width: 120rem;
+    height: 60rem;
+    border-radius: 25px;
+    background-color: vars.$m-white-color;
+
+    .create-resume-first-block{
+      .create-resume-input-box{
+        h2{
+          font-size: 2.4rem;
+          font-weight: bold;
+          color: vars.$m-input-darkness-gray-color;
+        }
+        .input1{
+          width: 35rem;
+          height: 5rem;
+          border-radius: 5px;
+          outline: none;
+          border: 1px solid vars.$m-input-lighter-gray-color;
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .create-resume-second-block{
+      .create-resume-input-box {
+        display: flex;
+        gap: 10px;
+
+        label {
+          display: inline-flex;
+          align-items: center;
+          cursor: pointer;
+
+          input[type="radio"] {
+            display: none;
+          }
+
+          span {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f5f5f5;
+            color: #333;
+            font-size: 16px;
+            transition: all 0.3s ease;
+          }
+
+          input[type="radio"]:checked + span {
+            background-color: #e0f7ff;
+            border-color: #00bcd4;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  &-h1-type-of-test{
+    font-size: 4rem;
+    font-weight: bold;
+    color: vars.$landing-blue-color
+  }
+}
+
