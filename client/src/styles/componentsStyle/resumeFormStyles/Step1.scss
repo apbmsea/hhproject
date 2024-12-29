@@ -1,0 +1,57 @@
+@use '../../vars';
+@use '../../Mixin' as mixin;
+
+.step-1{
+  &__content{
+    margin-top: 3rem;
+    height:40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .input-box{
+      @include mixin.input
+    }
+
+    .radio-box {
+      display: flex;
+      flex-direction: column;
+
+      h3{
+        margin: 0 0 10px 0;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: vars.$m-input-darkness-gray-color;
+      }
+
+      &__radio{
+        display: flex;
+        gap: 1rem;
+
+        label {
+          cursor: pointer;
+
+          input[type="radio"] {
+            display: none;
+          }
+
+          span {
+            padding: 10px 30px;
+            border: 1px solid vars.$m-input-darkness-gray-color;
+            border-radius: 15px;
+            background-color: vars.$color-white;
+            color: vars.$m-input-darkness-gray-color;
+            font-size: 1.8rem;
+            transition: all 0.3s ease;
+          }
+
+          input[type="radio"]:checked + span {
+            background-color: #9605CA;
+            border-color: vars.$color-white;
+            color: vars.$color-white;
+          }
+        }
+      }
+    }
+  }
+}
